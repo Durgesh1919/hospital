@@ -1,0 +1,21 @@
+#nav-bar-home{
+    color: white !important;
+    background-color:transparent !important;
+    padding: 0 !important;
+}
+#nav-bar-locations{
+    color: white !important;
+    background-color: transparent !important;
+    padding: 21px;
+}
+#nav-bar-contact{
+    color: black;
+    background-color: yellow ;
+    padding: 21px;
+}
+.appoinment-form {
+    margin-top: 30px;
+}
+.desc {
+    margin: 96px auto !important;
+}

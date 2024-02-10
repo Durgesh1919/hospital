@@ -1,0 +1,76 @@
+#nav-bar-home{
+    color: white !important;
+    background-color:transparent !important;
+    padding: 0 !important;
+}
+#nav-bar-locations{
+    color: black;
+    background-color: yellow;
+    padding: 21px;
+}
+/* HEro Baner image */
+.baner-img {
+    background-image: url("https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321__480.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.app-bg {
+    background-image: url("https://cdn.pixabay.com/photo/2019/07/16/12/52/health-4341815__340.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.overlay {
+    background: rgba(0,0,0,0.3);
+}
+#FORM {
+    width: 75%;
+}
+.form-element {
+    color: white !important;
+}
+#submit {
+    margin-left: 80px !important;
+}
+/* Locations */
+.location1 {
+    width: 80%;
+    margin-left: 16%;
+}
+.location-desc {
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+    margin-bottom: 8px;
+}
+@media (max-width:420px) {
+    *{
+        font-size: 16px;
+    }
+    .appoinment a {
+        font-size: 16px;
+    }
+    .appoinment {
+        width: 72%;
+        padding: 12px;
+    }
+    .desc{
+        margin: 16px auto;
+    }
+    .app-form {
+        margin: 0 auto;
+    }
+    .form-element {
+        width: 80%;
+    }
+    #select-element {
+        width: 84%;
+    }
+    #submit {
+        margin: 0px 99px;
+        width: 49%;
+    }
+    .footer-col {
+        display: inline;
+    }
+}

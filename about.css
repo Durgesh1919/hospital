@@ -1,0 +1,398 @@
+/* 
+header{
+    background-color: #0094cd;
+    font-family: serif;
+}
+.logo-div {
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+}
+.logo-img {
+    margin-left: 16px;
+    border: 2px dotted black;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: blanchedalmond;
+}
+.nav-bar {
+    list-style-type: none;
+    float: right;
+    margin-right: 16px;
+    padding-top: 12px;
+}
+.nav-bar li {
+    display: inline;
+    padding: 8px;
+    margin-right: 8px;
+}
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+}
+.nav-bar li a:hover,.footer-menu li a:hover{
+    color: yellow;
+    transition: 1s;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+} */
+*{
+    font-family: sans-serif;
+    font-size: 16px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #0094cd;
+    font-family: serif;
+}
+.logo-div {
+    display: inline-block;
+    margin: 8px;
+    padding: 8px;
+}
+.logo-img {
+    margin-left: 16px;
+    border: 2px dotted black;
+    padding: 4px;
+    border-radius: 8px;
+    background-color: blanchedalmond;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: cursive;
+}
+.nav-bar {
+    list-style-type: none;
+    float: right;
+    margin-right: 0;
+    margin: 20px;
+}
+.nav-bar li {
+    display: inline;
+    padding: 8px;
+    margin-right: 8px;
+}
+.nav-bar li a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+}
+#nav-bar-home{
+    color: white !important;
+    background-color: transparent !important;
+    padding: 21px;
+}
+#nav-bar-locations{
+    color: white !important;
+    background-color: transparent !important;
+    padding: 21px;
+}
+.nav-bar li a:hover,.footer-menu li a:hover{
+    color: yellow;
+    transition: 1s;
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+.slider {
+    padding: 32px 0px;
+}
+.slider img {
+    width: 1896px;
+    height: 676px;
+}
+
+.vision h1, .about h1 {
+    width: 1400px;
+    margin-left: 285px;
+    text-decoration: none;
+    font-weight: 100;
+}
+.vision p, .about p , .loc p{
+    color: white;
+    width: 1365px;
+    font-family: sans-serif;
+    font-size: 58px;
+    background: #0094cd;
+    /* align-content: center; */
+    margin-left: 285px;
+    /* text-decoration: underline; */
+    margin-top: 24px;
+    margin-bottom: 65px;
+}
+
+.vision hr {
+    height: 3px;
+    margin-left: 35px;
+    margin-bottom: 48px;
+    margin-top: 72px;
+    width: 1770px;
+}
+.about p {
+    font-family: sans-serif;
+    font-size: 58px;
+    /* align-content: center; */
+    margin-left: 285px;
+    /* text-decoration: underline; */
+    margin-top: 24px;
+    margin-bottom: 40px;
+    background: #0094cd;
+    color: white;
+}
+.about h1 {
+    width: 1400px;
+    margin-left: 285px;
+    text-decoration: none;
+        text-align: justify;
+}
+
+.text.area p {
+    font-size: 32px;
+    margin-top: 45px;
+}
+.text.area1 p {
+    align-content: center;
+    /* margin-top: -4px; */
+    margin-left: auto;
+    font-size: 26px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+p {
+    align-content: center;
+    /* margin-top: -4px; */
+    margin-left: auto;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.pro {
+    height: 513px;
+}
+.pro hr {
+    height: 2px;
+    width: 190px;
+}
+
+.pro1 {
+    height: 370px;
+    text-align: center;
+    border-right: 2px solid #9e9e9ea8;
+    border-left: 2px solid #9e9e9ea8;
+}	
+.pro1 hr {
+    height: 2px;
+    width: 190px;
+}
+.member {
+    margin-left: 260px;
+}
+.team {
+
+    height: 512px;
+    width: 400px;
+    margin-right: 96px;
+    display: inline-block;
+}
+
+.member1 {
+    margin-top: 72px;
+    margin-left: 260px;
+}
+
+.hr hr {
+    margin-bottom: 40px;
+    height: 2px;
+    width: 1792px;
+    margin-left: -168px;
+}
+.hr {
+    margin-top: 72px;
+    margin-left: -113px;
+}
+.about {
+    margin-bottom: 48px;
+   margin-top: 72px;
+}
+.about {
+    margin-bottom: 80px;
+}
+
+.loc1 {
+    margin-left: 334px;
+}
+
+
+.locations {
+    display: inline-block;
+
+    margin-right: 96px;
+    width: 350px;
+    height: 415px;
+}
+
+.team img {
+    height: 47%;
+    width: 100%;
+
+}
+.pro:hover {
+    box-shadow: 7px 9px 18px 7px #9e9e9ea8;
+}
+
+.pro1:hover {
+    box-shadow: 6px 7px 14px 7px #9e9e9ea8;
+}
+body {
+    background: whitesmoke;
+}
+
+
+/* Footer  */
+footer {
+    background: #30E6D7;
+}
+.footer-col {
+    width: 49%;
+    display: inline-block;
+}
+.footer-col .para {
+    padding: 0px;
+    margin-left: 30px;
+    width: 88%;
+        font-size: 28px;
+
+}
+.footer-col h4 {
+    color: black;
+    margin-left: 40px;
+}
+.footer-menu {
+    margin: 0;
+    list-style-type: none;
+}
+.footer-menu li {
+    margin-bottom: 12px;
+}
+.footer-menu li a {
+    color: black;
+    text-decoration: none;
+}
+.footer-menu li a::before {
+    content: "->";
+    color: black;
+    border: 2px double #0094cd;
+    margin-right: 16px;
+    border-radius: 8px;
+}
+
+.appoinment {
+    width: 80%;
+    background: red;
+    margin: 0 auto;
+    padding: 16px;
+    text-align: center;
+}
+.appoinment a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 2px 16px;
+    border-radius: 24px;
+    transition: 1s;
+}
+.vision1 {
+    margin-left: -220px;
+    width: 1760px;
+}
+#nav-bar-about{
+    color: black;
+    background-color: yellow;
+    padding: 21px;
+}
+.parallax {
+  
+    width: 1889px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+ 
+.tile span {
+    display: block;
+    font-size: 32px;
+    text-align: center;
+    width: 261px;
+}
+
+.tile {
+    margin-left: 175px;
+     display: inline-block;
+}
+
+.tile img {
+    text-align: center;
+    width: 100px;
+    margin-top: -24px;
+    margin-left: 64px;
+}
+
+
+.tile h1 {
+    font-size: 35px;
+    /* margin-left: 78px; */
+    text-align: center;
+    width: 242px;
+    border-radius: 3px 2px 2px 2px black;
+    border: 1px solid red;
+    border-radius: 58px;
+}
+	
+.tile h1:hover {
+    color: whitesmoke;
+    background: #0094cd;
+}
+.footer-container {
+    margin-top: 40px;
+}
+.hr2 hr {
+    margin-top: 64px;
+    width: 1809px;
+    margin-left: 47px;
+}
+.tile:hover {
+    box-shadow: 9px 2px 28px -5px #eabbbb;
+}	
+.checked {
+  color: orange;
+}
+.icn {
+    display: inherit;
+    margin-bottom: 8px;
+    color: red;
+}
+#reg img {
+    width: 32px;
+}
+.icons {
+    position: fixed;
+    bottom: 0;
+    right: -185px;
+    transition: 2s;
+}
+
+.icons:hover {
+    right: 16px;
+}
